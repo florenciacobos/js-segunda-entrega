@@ -9,17 +9,17 @@ class Producto {
   
     // Método para mostrar información del producto
     mostrarInfo() {
-      return `${this.nombre} - ${this.precio}€`;
+      return `${this.nombre} - ${this.precio}$`;
     }
   }
   
   // Array de productos disponibles en el supermercado
   const productosDisponibles = [
-    new Producto(1, "Leche", 2.5, "Lácteos"),
-    new Producto(2, "Pan", 1.0, "Panadería"),
-    new Producto(3, "Manzanas", 3.0, "Frutas"),
-    new Producto(4, "Cereal", 4.0, "Desayuno"),
-    new Producto(5, "Yogur", 1.5, "Lácteos"),
+    new Producto(1, "Leche", 2500, "Lácteos"),
+    new Producto(2, "Pan", 1000, "Panadería"),
+    new Producto(3, "Manzanas", 300, "Frutas"),
+    new Producto(4, "Cereal", 400, "Desayuno"),
+    new Producto(5, "Yogur", 1500, "Lácteos"),
   ];
   
   // Función para buscar productos por nombre o categoría
